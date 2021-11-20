@@ -8,11 +8,42 @@ body{
     background-position: center;
 }
 
+a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+}
+
 .container-content{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
     height: 600px;
     width: 500px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 5px 5px 10px #0000004d;
+}
+
+.containner-profile{
+    height: 200px;
+}
+
+.profile{
+    background-color: #CFCFCF;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.btn-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CFCFCF;
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
 }
