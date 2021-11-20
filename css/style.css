@@ -11,7 +11,6 @@ body{
 a{
     text-align: center;
     text-decoration: none;
-    font-size: 12px;
 }
 
 .container-content{
@@ -22,9 +21,9 @@ a{
     gap: 20px;
     height: 600px;
     width: 500px;
-    background-color: #fff;
+    background-color: #afaeae;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px #0000004d;
+    box-shadow: 15px 15px 15px #0000004d;
 }
 
 .containner-profile{
@@ -32,7 +31,8 @@ a{
 }
 
 .profile{
-    background-color: #CFCFCF;
+    background-image: url(../img/ETN_7362.png);
+    background-size: 100%;
     width: 180px;
     height: 180px;
     border-radius: 50%;
@@ -42,8 +42,19 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #CFCFCF;
+    background-color: #363636;
     width: 350px;
     height: 50px;
     border-radius: 20px;
+}
+
+.p-link{
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+a:hover{
+    font-size: 1.5em;
 }
