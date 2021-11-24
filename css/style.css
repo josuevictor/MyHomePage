@@ -21,10 +21,8 @@ a{
     gap: 20px;
     height: 600px;
     width: 500px;
-    background-color: #afaeae;
-    border-radius: 10px;
-    box-shadow: 15px 15px 15px #0000004d;
 }
+
 
 .containner-profile{
     height: 200px;
@@ -55,6 +53,6 @@ a{
     font-weight: bolder;
 }
 
-a:hover{
+.p-link:hover{
     font-size: 1.5em;
 }
